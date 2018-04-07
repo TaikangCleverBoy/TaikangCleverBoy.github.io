@@ -2,7 +2,7 @@
 baseurl: "https://taikangcleverboy.github.io"
 url: ""
 title: Michael Li's Blog # site's title
-description: "Michael Li's Blog, Deep in it" # used by search engines
+description: "深耕Java Web，不断探索新领域" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><h2>Michael Li's Blog</h2><br> Java | Deepinit</p>
+     <p><h1>Michael Li's Blog</h1><br> Java | Deepinit</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

@@ -24,3 +24,28 @@ Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenat
 Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.
 
 Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.
+
+<br/><br/>
+<aside class="related">
+  <h2>相关文章</h2>
+  <ul class="related-posts">
+    <li>
+        <a href="http://kresnikwang.github.io///journey/2015/06/05/kresnik.co-%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6%E5%91%8A%E7%A4%BA.html">
+          kresnik.co博客搬家告示
+          &nbsp;&nbsp;<small><time datetime="2015-06-05T00:00:00+00:00">05 Jun 2015</time></small>
+        </a>
+    </li>
+    <li>
+        <a href="http://kresnikwang.github.io///tech/2015/06/02/javascript-include-html-page-by-jquery.html">
+          Javascript Include Html Page By Jquery
+          &nbsp;&nbsp;<small><time datetime="2015-06-02T18:45:42+00:00">02 Jun 2015</time></small>
+        </a>
+    </li>
+    <li>
+        <a href="http://kresnikwang.github.io///tech/2015/05/31/Github-use-http-instead-of-git.html">
+          Github设置，强制使用"https://" 来代替 "git://"
+          &nbsp;&nbsp;<small><time datetime="2015-05-31T05:03:36+00:00">31 May 2015</time></small>
+        </a>
+    </li>
+  </ul>
+</aside>

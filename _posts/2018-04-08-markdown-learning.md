@@ -7,8 +7,8 @@ comments: true
 tags: [markdown]
 ---
     
-    
-
+学习掌握 Markdown  
+<!--more-->
 
 <br/><br/>
 <aside class="related">

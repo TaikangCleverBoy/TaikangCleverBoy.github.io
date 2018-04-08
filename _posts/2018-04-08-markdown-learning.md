@@ -7,7 +7,8 @@ comments: true
 tags: [markdown]
 ---
     
-学习掌握 Markdown  
+学习掌握 Markdown
+http://itmyhome.com/markdown/article/about/readme.html
 <!--more-->
 
 <br/><br/>

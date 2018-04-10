@@ -4,12 +4,13 @@ title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
 feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
-thumbnail: "assets/img/content/20180408/linzhilin.jpeg"
+thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
 comments: true
 tags: [markdown]
 ---
 
 <!--more-->
+
 <p><font size="6" face="黑体"><strong>目录</strong></font></p>
 * auto-gen TOC:
 {:toc}
@@ -196,6 +197,8 @@ public class SpreadFromCenter {
 
 <br/>
 ### 8、图片引入
+
+![林志玲]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpeg)
 
 ![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
 

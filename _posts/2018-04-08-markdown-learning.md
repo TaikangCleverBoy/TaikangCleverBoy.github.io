@@ -3,8 +3,8 @@ layout: post
 title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
-feature-img: "assets/img/pexels/desk-messy.jpeg"
-thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
+feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
+thumbnail: "assets/img/pexels/desk-messy.jpeg"
 comments: true
 tags: [markdown]
 ---
@@ -26,15 +26,15 @@ tags: [markdown]
 
 
 ### 3、列表
-** 无序列表 **
-* 香蕉
-* 苹果
-* 橘子
+> ** 无序列表 **
+> * 香蕉
+> * 苹果
+> * 橘子
 
-** 有序列表 **
-1. 香蕉
-2. 苹果
-3. 橘子
+**有序列表**
+> 1. 香蕉
+> 2. 苹果
+> 3. 橘子
 
 
 ### 4、代码区块（语法高亮）
@@ -55,6 +55,20 @@ tags: [markdown]
   font-family: $monospace;
   font-size: $type-size-7;
   line-height: 1.8;
+}
+{% endhighlight %}
+
+{% highlight js %}
+// count to ten
+for (var i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+// count to twenty
+var j = 0;
+while (j < 20) {
+    j++;
+    console.log(j);
 }
 {% endhighlight %}
 
@@ -92,8 +106,8 @@ end
 ```
 
 ** 列表中的代码块 **
-1. 香蕉
-2. 苹果
+> 1. 香蕉
+> 2. 苹果
 
    ```ruby
    def print_hi(name)
@@ -102,8 +116,7 @@ end
    print_hi('Tom')
    #=> prints 'Hi, Tom' to STDOUT.
    ```
-        
-3. 橘子
+> 3. 橘子
 
 ** 外部脚本直接嵌入 **
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
@@ -134,10 +147,29 @@ Use the `printf()` function.
 
 
 ### 7、强调加粗，倾斜
-** 强调 **
+>  **强调**
 
 
 ### 8、图片引入
+![林志玲]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpg)
+
+![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
+
+
+### 9、表格
+水果          | 蔬菜
+------------- | -------------
+苹果          | 西红柿
+鸭梨          | 土豆
+
+
+### 10、数学公式（KaTeX）
+
+行内公式：$$S_n = a \times \frac{1-r^n}{1-r}$$
+
+单独一行公式：
+
+$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
 
 
 <br/><br/>

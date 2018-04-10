@@ -22,23 +22,26 @@ https://segmentfault.com/a/1190000004543870
 ##### 5级标题
 ###### 6级标题 
 
+
 ### 区块引用
 > 段落前面加一个 ">"，可以直接引入一个段落，用于标识重点强调内容，而且应用可以嵌套，可以在区块中加其它的 markdown 语法
 >> 我是嵌套的区块引用
 
+
 ### 列表
-#### 无序列表
+##### 无序列表
 * 香蕉
 * 苹果
 * 橘子
 
-#### 有序列表
+##### 有序列表
 1. 香蕉
 2. 苹果
 3. 橘子
 
+
 ### 代码区块（语法高亮）
-#### CSS: 带行号, 不带行号
+##### CSS: 带行号, 不带行号
 
 ```css
 #container {
@@ -58,7 +61,7 @@ https://segmentfault.com/a/1190000004543870
 }
 {% endhighlight %}
 
-#### HTML
+##### HTML
 ```html
 {% raw %}<nav class="pagination" role="navigation">
   {% if page.previous %}
@@ -70,7 +73,7 @@ https://segmentfault.com/a/1190000004543870
 </nav><!-- /.pagination -->{% endraw %}
 ```
 
-#### Ruby
+##### Ruby
 ```ruby
 module Jekyll
   class TagIndex < Page
@@ -91,7 +94,7 @@ module Jekyll
 end
 ```
 
-#### 列表中的代码块
+##### 列表中的代码块
 1. 香蕉
 2. 苹果
 
@@ -105,7 +108,7 @@ end
         
 3. 橘子
 
-#### 外部脚本直接嵌入
+##### 外部脚本直接嵌入
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
  
 

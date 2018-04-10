@@ -3,7 +3,7 @@ layout: post
 title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
-feature-img: "assets/img/thumbnails/desk-messy.jpeg"
+feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
 thumbnail: "assets/img/pexels/desk-messy.jpeg"
 comments: true
 tags: [markdown]

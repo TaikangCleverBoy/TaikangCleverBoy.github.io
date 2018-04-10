@@ -3,45 +3,42 @@ layout: post
 title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
+feature-img: "assets/img/pexels/desk-messy.jpeg"
+thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
 comments: true
 tags: [markdown]
 ---
     
-学习掌握 Markdown <br/>
-http://itmyhome.com/markdown/article/about/readme.html <br/>
-https://segmentfault.com/a/1190000004543870
 <!--more-->
 
-### 标题
+### 1、标题
 标题分成6级，前面使用 # 号标识
+>     # 1级标题
+>     ## 2级标题
+>     ### 3级标题
+>     #### 4级标题
+>     ##### 5级标题
+>     ###### 6级标题 
 
-# 1级标题
-## 2级标题
-### 3级标题
-#### 4级标题
-##### 5级标题
-###### 6级标题 
 
-
-### 区块引用
+### 2、区块引用
 > 段落前面加一个 ">"，可以直接引入一个段落，用于标识重点强调内容，而且应用可以嵌套，可以在区块中加其它的 markdown 语法
->> 我是嵌套的区块引用
 
 
-### 列表
-##### 无序列表
+### 3、列表
+** 无序列表 **
 * 香蕉
 * 苹果
 * 橘子
 
-##### 有序列表
+** 有序列表 **
 1. 香蕉
 2. 苹果
 3. 橘子
 
 
-### 代码区块（语法高亮）
-##### CSS: 带行号, 不带行号
+### 4、代码区块（语法高亮）
+** CSS: 带行号, 不带行号 **
 
 ```css
 #container {
@@ -61,7 +58,7 @@ https://segmentfault.com/a/1190000004543870
 }
 {% endhighlight %}
 
-##### HTML
+** HTML **
 ```html
 {% raw %}<nav class="pagination" role="navigation">
   {% if page.previous %}
@@ -73,7 +70,7 @@ https://segmentfault.com/a/1190000004543870
 </nav><!-- /.pagination -->{% endraw %}
 ```
 
-##### Ruby
+** Ruby **
 ```ruby
 module Jekyll
   class TagIndex < Page
@@ -94,7 +91,7 @@ module Jekyll
 end
 ```
 
-##### 列表中的代码块
+** 列表中的代码块 **
 1. 香蕉
 2. 苹果
 
@@ -108,9 +105,40 @@ end
         
 3. 橘子
 
-##### 外部脚本直接嵌入
+** 外部脚本直接嵌入 **
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
- 
+
+** 行内代码 **
+
+Use the `printf()` function.
+
+
+### 5、分隔线
+
+---
+
+
+### 6、超链接（行内式、参考式）
+** 行内式：方括号 + 小括号 **
+
+我是 [百度](http://www.baidu.com/ "百度")
+
+[京东](http://www.jd.com/) 是我
+
+
+** 参考式：两个方括号 **
+
+我是 [百度] [1].
+
+[1]: <http://www.baidu.com> "百度是全球最大的中文搜索引擎提供商"
+
+
+### 7、强调加粗，倾斜
+** 强调 **
+
+
+### 8、图片引入
+
 
 <br/><br/>
 <aside class="related">

@@ -19,12 +19,12 @@ tags: [markdown]
 >     #### 4级标题
 >     ##### 5级标题
 >     ###### 6级标题 
-<br/><br/>
 
+<br/><br/>
 ### 2、区块引用
 > 段落前面加一个 ">"，可以直接引入一个段落，用于标识重点强调内容，而且应用可以嵌套，可以在区块中加其它的 markdown 语法
-<br/><br/>
 
+<br/><br/>
 ### 3、列表
 > **无序列表**
 > * 香蕉
@@ -35,8 +35,8 @@ tags: [markdown]
 > 1. 香蕉
 > 2. 苹果
 > 3. 橘子
-<br/><br/>
 
+<br/><br/>
 ### 4、代码区块（语法高亮）
 **CSS**
 ```css
@@ -163,43 +163,43 @@ public class SpreadFromCenter {
 
 **行内代码**
 Java 语言第一课: `System.out.println("Hello World!");` .
-<br/><br/>
 
+<br/><br/>
 ### 5、分隔线
 * * *
 ***
 *****
 - - -
 ---
-<br/><br/>
 
+<br/><br/>
 ### 6、超链接（行内式、参考式）
 > **行内式：方括号 + 小括号**
 
-> 我是 [百度](http://www.baidu.com/ "百度")
+    我是 [百度](http://www.baidu.com/ "百度")
 
-> [京东](http://www.jd.com/) 是我
+    [京东](http://www.jd.com/) 是我
 
 
 > **参考式：两个方括号**
 
-> 我是 [百度] [1].
+     我是 [百度] [1].
 
 [1]: <http://www.baidu.com> "百度是全球最大的中文搜索引擎提供商"
-<br/><br/>
 
+<br/><br/>
 ### 7、强调加粗，倾斜
 
 >  **强调**
-<br/><br/>
 
+<br/><br/>
 ### 8、图片引入
 
 ![Lin Zhi Lin]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpeg)
 
 ![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
-<br/><br/>
 
+<br/><br/>
 ### 9、表格
 
 水果          | 蔬菜
@@ -211,8 +211,8 @@ First Header  | Second Header  | Third Header
 :-------------| :------------: | ------------:
 Content Cell  | Content Cell   | Content Cell
 Content Cell  | Content Cell   | Content Cell
-<br/><br/>
 
+<br/><br/>
 ### 10、数学公式（KaTeX）
 
 行内公式：$$S_n = a \times \frac{1-r^n}{1-r}$$

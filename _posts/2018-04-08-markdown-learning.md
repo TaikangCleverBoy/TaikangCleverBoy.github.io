@@ -8,12 +8,13 @@ thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
 comments: true
 tags: [markdown]
 ---
-    
-<!--more-->
 
+### 目录   
+<!--more-->
 * auto-gen TOC:
 {:toc}
 
+<br/>
 ### 1、标题
 标题分成6级，前面使用 # 号标识
 >     # 1级标题
@@ -223,7 +224,7 @@ Content Cell  | Content Cell   | Content Cell
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
 
 <br/>
-### 11、注意事项（KaTeX）
+### 11、注意事项
 * feature 图片是正文大图片，thumbnail 是外部小图片
 * 换行标签最好放到标题上面，防止跟其它标签混在一起，无法完成换行
 * 强调是两个 * 号，注意中间没有空格

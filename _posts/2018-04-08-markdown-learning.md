@@ -11,6 +11,9 @@ tags: [markdown]
     
 <!--more-->
 
+* auto-gen TOC:
+{:toc}
+
 ### 1、标题
 标题分成6级，前面使用 # 号标识
 >     # 1级标题

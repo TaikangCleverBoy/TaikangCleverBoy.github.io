@@ -10,7 +10,7 @@ tags: [markdown]
 ---
 
 <!--more-->
-<p><font size="7" face="黑体"><strong>目录</strong></font></p>
+<p><font size="6" face="黑体"><strong>目录</strong></font></p>
 * auto-gen TOC:
 {:toc}
 

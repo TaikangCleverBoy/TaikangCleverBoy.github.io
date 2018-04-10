@@ -3,7 +3,7 @@ layout: post
 title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
-feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
+feature-img: "assets/img/thumbnails/desk-messy.jpeg"
 thumbnail: "assets/img/pexels/desk-messy.jpeg"
 comments: true
 tags: [markdown]
@@ -21,11 +21,9 @@ tags: [markdown]
 >     ###### 6级标题 
 <br/><br/>
 
-
 ### 2、区块引用
 > 段落前面加一个 ">"，可以直接引入一个段落，用于标识重点强调内容，而且应用可以嵌套，可以在区块中加其它的 markdown 语法
-
-
+<br/><br/>
 
 ### 3、列表
 > **无序列表**
@@ -37,12 +35,10 @@ tags: [markdown]
 > 1. 香蕉
 > 2. 苹果
 > 3. 橘子
-
-
+<br/><br/>
 
 ### 4、代码区块（语法高亮）
-**CSS: 带行号, 不带行号**
-
+**CSS**
 ```css
 #container {
   float: left;
@@ -61,6 +57,7 @@ tags: [markdown]
 }
 {% endhighlight %}
 
+**JS**
 {% highlight js %}
 // count to ten
 for (var i = 1; i <= 10; i++) {
@@ -108,6 +105,47 @@ module Jekyll
 end
 ```
 
+**Java**
+```java
+/**
+ * @description: 最大回文串: 中心扩散算法
+ */
+public class SpreadFromCenter {
+    public String longestPalindrome(String s)
+    {
+        for (int i=0; i<s.length(); i++)
+        {
+            // 奇数回文串
+            calculate(s, i, 0);
+    
+            // 偶数回文串
+            calculate(s, i, 1);
+        }
+        return longest;
+    }
+    
+    public void calculate(String s, int idx, int offset)
+    {
+        int left = idx;
+        int right = idx + offset;
+        int length = s.length();
+    
+        while (left>=0 && right<length && s.charAt(left) == s.charAt(right))
+        {
+            left --;
+            right ++;
+        }
+    
+        String currentLongest = s.substring(left + 1, right);
+    
+        if (currentLongest.length() > longest.length())
+        {
+            longest = currentLongest;
+        }
+    }
+}
+```
+
 **列表中的代码块**
 > 1. 香蕉
 > 2. 苹果
@@ -125,8 +163,7 @@ end
 
 **行内代码**
 Java 语言第一课: `System.out.println("Hello World!");` .
-
-
+<br/><br/>
 
 ### 5、分隔线
 * * *
@@ -134,33 +171,34 @@ Java 语言第一课: `System.out.println("Hello World!");` .
 *****
 - - -
 ---
-
-
+<br/><br/>
 
 ### 6、超链接（行内式、参考式）
 > **行内式：方括号 + 小括号**
+
 > 我是 [百度](http://www.baidu.com/ "百度")
+
 > [京东](http://www.jd.com/) 是我
 
 
 > **参考式：两个方括号**
+
 > 我是 [百度] [1].
 
 [1]: <http://www.baidu.com> "百度是全球最大的中文搜索引擎提供商"
-
-
+<br/><br/>
 
 ### 7、强调加粗，倾斜
+
 >  **强调**
-
-
+<br/><br/>
 
 ### 8、图片引入
-![林志玲]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpeg)
+
+![Lin Zhi Lin]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpeg)
 
 ![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
-
-
+<br/><br/>
 
 ### 9、表格
 
@@ -173,8 +211,7 @@ First Header  | Second Header  | Third Header
 :-------------| :------------: | ------------:
 Content Cell  | Content Cell   | Content Cell
 Content Cell  | Content Cell   | Content Cell
-
-
+<br/><br/>
 
 ### 10、数学公式（KaTeX）
 

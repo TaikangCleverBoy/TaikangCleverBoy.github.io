@@ -19,7 +19,7 @@ tags: [markdown]
 >     #### 4级标题
 >     ##### 5级标题
 >     ###### 6级标题 
-<br/>
+<br/><br/>
 
 
 ### 2、区块引用
@@ -163,15 +163,16 @@ Java 语言第一课: `System.out.println("Hello World!");` .
 
 
 ### 9、表格
+
 水果          | 蔬菜
 ------------- | -------------
 苹果          | 西红柿
 鸭梨          | 土豆
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+First Header  | Second Header  | Third Header
+:-------------| :------------: | ------------:
+Content Cell  | Content Cell   | Content Cell
+Content Cell  | Content Cell   | Content Cell
 
 
 

@@ -4,7 +4,7 @@ title: 先从熟练掌握 Markdown 开始
 date:   2018-04-08 14:46
 description: 学习Markdown常用语法
 feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
-thumbnail: "assets/img/pexels/desk-messy.jpeg"
+thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
 comments: true
 tags: [markdown]
 ---
@@ -162,7 +162,7 @@ public class SpreadFromCenter {
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
 **行内代码**
-Java 语言第一课: `System.out.println("Hello World!");` .
+<br/>Java 语言第一课: `System.out.println("Hello World!");` .
 
 <br/>
 ### 5、分隔线
@@ -219,15 +219,23 @@ Content Cell  | Content Cell   | Content Cell
 
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
 
+<br/>
+### 11、注意事项（KaTeX）
+* feature 图片是正文大图片，thumbnail 是外部小图片
+* 换行标签最好放到标题上面，防止跟其它标签混在一起，无法完成换行
+* 强调是两个 * 号，注意中间没有空格
+* 表格上下都要换行
+* 表格可以通过在小短杠左右加冒号决定对齐方式
+* 如果用 markdown 实在无法表示所需样式，可以直接使用 HTML + CSS
 
 <br/>
 <aside class="related">
   <h2>相关文章</h2>
   <ul class="related-posts">
     <li>
-        <a href="http://kresnikwang.github.io///journey/2015/06/05/kresnik.co-%E5%8D%9A%E5%AE%A2%E6%90%AC%E5%AE%B6%E5%91%8A%E7%A4%BA.html">
-          kresnik.co博客搬家告示
-          &nbsp;&nbsp;<small><time datetime="2015-06-05T00:00:00+00:00">05 Jun 2015</time></small>
+        <a href="https://github.com/riku/Markdown-Syntax-CN/blob/master/syntax.md#%E6%A0%87%E9%A2%98">
+          Markdown 语法说明 (简体中文版)
+          &nbsp;&nbsp;<small><time datetime="2018-04-10T00:00:00+00:00">10 April 2018</time></small>
         </a>
     </li>
   </ul>

@@ -21,24 +21,27 @@ tags: [markdown]
 >     ###### 6级标题 
 
 
+
 ### 2、区块引用
 > 段落前面加一个 ">"，可以直接引入一个段落，用于标识重点强调内容，而且应用可以嵌套，可以在区块中加其它的 markdown 语法
 
 
+
 ### 3、列表
-> ** 无序列表 **
+> **无序列表**
 > * 香蕉
 > * 苹果
 > * 橘子
 
-**有序列表**
+> **有序列表**
 > 1. 香蕉
 > 2. 苹果
 > 3. 橘子
 
 
+
 ### 4、代码区块（语法高亮）
-** CSS: 带行号, 不带行号 **
+**CSS: 带行号, 不带行号**
 
 ```css
 #container {
@@ -72,7 +75,7 @@ while (j < 20) {
 }
 {% endhighlight %}
 
-** HTML **
+**HTML**
 ```html
 {% raw %}<nav class="pagination" role="navigation">
   {% if page.previous %}
@@ -84,7 +87,7 @@ while (j < 20) {
 </nav><!-- /.pagination -->{% endraw %}
 ```
 
-** Ruby **
+**Ruby**
 ```ruby
 module Jekyll
   class TagIndex < Page
@@ -105,55 +108,58 @@ module Jekyll
 end
 ```
 
-** 列表中的代码块 **
+**列表中的代码块**
 > 1. 香蕉
 > 2. 苹果
+    ```ruby
+       def print_hi(name)
+         puts "Hi, #{name}"
+       end
+       print_hi('Tom')
+       #=> prints 'Hi, Tom' to STDOUT.
+    ```
+>  3. 橘子
 
-   ```ruby
-   def print_hi(name)
-     puts "Hi, #{name}"
-   end
-   print_hi('Tom')
-   #=> prints 'Hi, Tom' to STDOUT.
-   ```
-> 3. 橘子
-
-** 外部脚本直接嵌入 **
+**外部脚本直接嵌入**
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
-** 行内代码 **
+**行内代码**
+Java 语言第一课: `System.out.println("Hello World!");` .
 
-Use the `printf()` function.
 
 
 ### 5、分隔线
-
+* * *
+***
+*****
+- - -
 ---
 
 
+
 ### 6、超链接（行内式、参考式）
-** 行内式：方括号 + 小括号 **
-
-我是 [百度](http://www.baidu.com/ "百度")
-
-[京东](http://www.jd.com/) 是我
+> **行内式：方括号 + 小括号**
+> 我是 [百度](http://www.baidu.com/ "百度")
+> [京东](http://www.jd.com/) 是我
 
 
-** 参考式：两个方括号 **
-
-我是 [百度] [1].
+> **参考式：两个方括号**
+> 我是 [百度] [1].
 
 [1]: <http://www.baidu.com> "百度是全球最大的中文搜索引擎提供商"
+
 
 
 ### 7、强调加粗，倾斜
 >  **强调**
 
 
+
 ### 8、图片引入
-![林志玲]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpg)
+![林志玲]({{ site.baseurl }}/assets/img/content/20180408/linzhilin.jpeg)
 
 ![Image of a glass on a book]({{ site.baseurl }}/assets/img/pexels/book-glass.jpeg)
+
 
 
 ### 9、表格
@@ -161,6 +167,12 @@ Use the `printf()` function.
 ------------- | -------------
 苹果          | 西红柿
 鸭梨          | 土豆
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
 
 
 ### 10、数学公式（KaTeX）

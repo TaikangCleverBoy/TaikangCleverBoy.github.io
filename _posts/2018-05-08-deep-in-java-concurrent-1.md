@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 深入Java并发包（一）
-date:   2018-04-08 14:46
+date:   2018-05-08 14:46
 description: 总结回顾Java并发包
 feature-img: "assets/img/thumbnails/20180408-markdown.jpeg"
 thumbnail: "assets/img/thumbnails/20180408-markdown.jpeg"
@@ -19,7 +19,6 @@ tags: [markdown]
 ### 1、标题
 
 
-<br/>
 <aside class="related">
   <h2>相关文章</h2>
   <ul class="related-posts">

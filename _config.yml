@@ -15,7 +15,7 @@ theme_settings:
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p><h1>Michael Li's Blog</h1><br> Java | Deepinit</p>
+     <p><h1>Michael Li's Blog</h1><br> Java | Deepinit | 基础不牢 地动山摇</p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>

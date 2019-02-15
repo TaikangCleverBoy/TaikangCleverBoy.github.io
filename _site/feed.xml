@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Michael Li's Blog</title>
-        <atom:link href="/https://taikangcleverboy.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-        <link>http://localhost:8090https://taikangcleverboy.github.io/</link>
+        <atom:link href="/https://along-michael.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+        <link>http://localhost:8090https://along-michael.github.io/</link>
         <description></description>
         <pubDate>Sat, 07 Apr 2018 19:12:12 +0800</pubDate>
         
         <item>
             <title>Sample post</title>
-            <link>/https://taikangcleverboy.github.io/2014/11/30/sample-post.html</link>
-            <guid isPermaLink="true">/https://taikangcleverboy.github.io/2014/11/30/sample-post.html</guid>
+            <link>/https://along-michael.github.io/2014/11/30/sample-post.html</link>
+            <guid isPermaLink="true">/https://along-michael.github.io/2014/11/30/sample-post.html</guid>
             <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. 
 Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. 
 &lt;!--more--&gt;
@@ -66,8 +66,8 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
         
         <item>
             <title>Feature images</title>
-            <link>/https://taikangcleverboy.github.io/2014/11/29/feature-images.html</link>
-            <guid isPermaLink="true">/https://taikangcleverboy.github.io/2014/11/29/feature-images.html</guid>
+            <link>/https://along-michael.github.io/2014/11/29/feature-images.html</link>
+            <guid isPermaLink="true">/https://along-michael.github.io/2014/11/29/feature-images.html</guid>
             <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
 
 </description>
@@ -76,8 +76,8 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
         
         <item>
             <title>Markdown and HTML</title>
-            <link>/https://taikangcleverboy.github.io/2014/11/28/markdown-and-html.html</link>
-            <guid isPermaLink="true">/https://taikangcleverboy.github.io/2014/11/28/markdown-and-html.html</guid>
+            <link>/https://along-michael.github.io/2014/11/28/markdown-and-html.html</link>
+            <guid isPermaLink="true">/https://along-michael.github.io/2014/11/28/markdown-and-html.html</guid>
             <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
 
 &lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
@@ -103,7 +103,7 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
 
 &lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://taikangcleverboy.github.io/assets/img/pexels/book-glass.jpeg&quot; alt=&quot;Image of a glass on a book&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://along-michael.github.io/assets/img/pexels/book-glass.jpeg&quot; alt=&quot;Image of a glass on a book&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Highlighting for code in Jekyll is done using Base16 or Rouge. This theme makes use of Rouge by default.&lt;/p&gt;
 
@@ -130,8 +130,8 @@ Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit 
         
         <item>
             <title>Markup: Syntax Highlighting</title>
-            <link>/https://taikangcleverboy.github.io/2014/08/08/Markup-Syntax-Highlighting.html</link>
-            <guid isPermaLink="true">/https://taikangcleverboy.github.io/2014/08/08/Markup-Syntax-Highlighting.html</guid>
+            <link>/https://along-michael.github.io/2014/08/08/Markup-Syntax-Highlighting.html</link>
+            <guid isPermaLink="true">/https://along-michael.github.io/2014/08/08/Markup-Syntax-Highlighting.html</guid>
             <description>&lt;p&gt;From Michael’s Rose &lt;a href=&quot;https://mmistakes.github.io/minimal-mistakes/markup-syntax-highlighting&quot;&gt;Minimal Mistakes&lt;/a&gt;.
 Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. &lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;Highlighting&lt;/a&gt; does not affect the meaning of the text itself; it is intended only for human readers.&lt;/p&gt;
 
@@ -223,8 +223,8 @@ Syntax highlighting is a feature that displays source code, in different colors 
         
         <item>
             <title>Blogging with title</title>
-            <link>/https://taikangcleverboy.github.io/2013/11/18/blogging-with-title.html</link>
-            <guid isPermaLink="true">/https://taikangcleverboy.github.io/2013/11/18/blogging-with-title.html</guid>
+            <link>/https://along-michael.github.io/2013/11/18/blogging-with-title.html</link>
+            <guid isPermaLink="true">/https://along-michael.github.io/2013/11/18/blogging-with-title.html</guid>
             <description>&lt;h1 id=&quot;i-am-a-big-title&quot;&gt;I am a BIG title&lt;/h1&gt;
 
 &lt;p&gt;This is a very tiny tiny post with less than 250 letters.&lt;/p&gt;
